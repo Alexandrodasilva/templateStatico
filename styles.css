@@ -14,11 +14,18 @@
   .flex-container{
     display: flex;
   }
-
   .esquerdo{
     margin-left: 150px;
   }
 
   section{
     margin-top: 40px;
+    font-family: sans-serif;
   }
+.container-sublime{
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+  width:200px; 
+
+}
