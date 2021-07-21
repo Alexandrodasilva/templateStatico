@@ -27,5 +27,13 @@
   border-style: solid;
   border-color: black;
   width:200px; 
-
+}
+.texto{
+  display: none;
+}
+.bot{
+  float: right;
+}
+.story{
+text-align: center;
 }
