@@ -30,10 +30,19 @@
 }
 .texto{
   display: none;
+  text-align: left;
 }
 .bot{
   float: right;
 }
 .story{
 text-align: center;
+}
+.formulario{
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+  width:500px; 
+  display: none;
+
 }
