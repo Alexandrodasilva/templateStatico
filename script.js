@@ -5,6 +5,11 @@ var IDADE = document.getElementById('idade');
 var SEXOM = document.getElementById('masc');
 var SEXOF = document.getElementById('fem');
 
+var DONOME = document.getElementById('dostring');
+var DOIDADE = document.getElementById('doidade');
+var DODATA = document.getElementById('dodate');
+
+
 var checkbox = document.querySelector('#checkbox-painel-Seg');
 var TEXTO = document.querySelector('.texto');
 const text = document.querySelector("#text");
@@ -37,3 +42,17 @@ text.addEventListener("keypress", function(e){
   }
 });
 
+function listar(){
+  var captarNome = " ";
+  var captarIdade = " ";
+  var captarData = " ";
+  
+  captarNome  = NOME.value;
+  DONOME.innerHTML = captarNome;
+
+  captarIdade  = IDADE.value;
+  DOIDADE.innerHTML = captarIdade;
+
+  captarData  = DATA.value;
+  DODATA.innerHTML = captarData;
+}

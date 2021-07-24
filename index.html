@@ -30,9 +30,9 @@
                 </p>
                 <p >Sexo
                     <div class="container-sublime">
-                        <input id="masc" type="radio">
+                        <input type="radio" id="masc" name="op1" checked>
                         <label>Masculino</label><br>
-                        <input id="fem" type="radio">
+                        <input type="radio" id="fem" name="op1">
                         <label>Feminino</label><br>
                     </div>
                 </p>
@@ -42,13 +42,15 @@
                 </p>
                 <div class="texto" >
                     <textarea class="story"  id="text" name="story" placeholder="digite " rows="5" cols="77" ></textarea>
-                    <button id="bot" class="bot">Apresentar</button>
+                    <button id="bot" class="bot"  onclick="listar()">Apresentar</button>
                 </div>
                 <div class="formulario">
-                        <h4 >fdkkkkkkkkkkkkkkkkkkkkkd</h4>
-                        <h4>dfdkkkkkkkkkkkkkkkkkkkkkkkkf</h4>
-                        <h4>dfkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkd</h4>
-                        <h4>dffkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkd</h4>
+                    <div class="posic">
+                        <div id="dostring"  ></div>
+                        <div id="dodate"></div>
+                        <div id="doidade"></div>
+                    </div>        
+                        <h4 id="dofem"></h4>
                 </div>
         </section>
     <script src="script.js"></script>

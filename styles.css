@@ -44,5 +44,8 @@ text-align: center;
   border-color: black;
   width:500px; 
   display: none;
-
+}
+.posic{
+  display: inline-block;
+  list-style: none;
 }
