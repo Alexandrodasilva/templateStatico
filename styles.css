@@ -45,7 +45,13 @@ text-align: center;
   width:500px; 
   display: none;
 }
-.posic{
+
+#dostring{
   display: inline-block;
-  list-style: none;
+}
+#doidade{
+  display: inline-block;
+}
+#dodate{
+  display: inline-block;
 }
